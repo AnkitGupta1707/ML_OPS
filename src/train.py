@@ -20,7 +20,7 @@ X = df.drop(TARGET_COL, axis=1)
 y = df[TARGET_COL]
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
+    X, y, test_size=0.2
 )
 
 model = LogisticRegression(max_iter=1000)
