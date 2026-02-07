@@ -1,0 +1,9 @@
+data:
+  raw: data/raw/campaign.csv
+  processed: data/processed/data.csv
+
+model:
+  type: logistic_regression
+  test_size: 0.2
+  random_state: 42
+  max_iter: 200
